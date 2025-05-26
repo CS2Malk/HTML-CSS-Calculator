@@ -1,0 +1,93 @@
+.redbutton{
+    background-color: #6b0000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 15px solid #02366f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.greenbutton{
+    background-color: #127818;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 15px solid #02366f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+.yellowbutton{
+    background-color: #f3b72f;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 15px solid #02366f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.bluebutton{
+    background-color: #336699;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 15px solid #02366f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+ }
+.greybutton{
+    background-color: #0b2943;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 15px solid #02366f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.display{
+    background-color: #2b9d91;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    border: 20px solid #02366f;
+    color: white;
+}
+
+.calculator{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}

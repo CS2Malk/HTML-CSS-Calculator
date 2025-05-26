@@ -1,0 +1,156 @@
+.calculator {
+  position: relative;
+  width: 230px;
+  height: 360px;
+  background-color: #02366f;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+.display {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 220px;
+  height: 50px;
+  background-color: #2b9d91;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ac, .del {
+    background-color: #6b0000;
+}
+.operator, .dot, .slash, .asterisk, .minus, .plus {
+    background-color: #f3b72f;
+}
+.equal {
+    background-color: #127818;
+    width: 110px;
+}
+.dblzero, .num0 {
+    background-color: #2b9d91;
+}
+
+
+.ac{
+    top: 70px;
+    left: 10px;
+}
+
+.del{
+    top: 70px;
+    left: 70px;
+}
+
+.dot{
+    top: 70px;
+    left: 130px;
+}
+.slash { top: 70px; left: 190px; }
+
+.num7{
+    top: 130px;
+    left: 10px;
+    background-color: #0b2943;
+}
+
+.num8{
+    top: 130px;
+    left: 70px;
+    background-color: #0b2943;
+}
+
+.num9{
+    top: 130px;
+    left: 130px;
+    background-color: #0b2943;
+}
+
+.asterisk{
+    top: 130px;
+    left: 190px;
+}
+
+.num4{
+    top: 190px;
+    left: 10px;
+    background-color: #0b2943;
+}
+
+.num5{
+    top: 190px;
+    left: 70px;
+    background-color: #0b2943;
+}
+
+.num6{
+    top: 190px;
+    left: 130px;
+    background-color: #0b2943;
+}
+
+.minus{
+    top: 190px;
+    left: 190px;
+}
+
+.num1{
+    top: 250px;
+    left: 10px;
+    background-color: #0b2943;
+}
+
+.num2{
+    top: 250px;
+    left: 70px;
+    background-color: #0b2943;
+}
+
+.num3{
+    top: 250px;
+    left: 130px;
+    background-color: #0b2943;
+}
+
+.plus{
+    top: 250px;
+    left: 190px;
+}
+
+.dblzero{
+    top: 310px;
+    left: 10px;
+}
+
+.num0{
+    top: 310px;
+    left: 70px;
+}
+
+.equal{
+    top: 310px;
+    left: 130px;
+}
