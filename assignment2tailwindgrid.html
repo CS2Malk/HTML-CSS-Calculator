@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 2 - Tailwind Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-200 flex justify-center items-center min-h-screen">
+    <div class="bg-[#02366f] w-[230px] rounded-xl p-2 grid grid-rows-[60px_repeat(5,50px)] gap-2">
+      
+      <!-- Display -->
+      <div class="bg-[#2b9d91] text-white text-[30px] rounded-lg flex items-center justify-end pr-2">
+        12
+      </div>
+
+      <!-- Row 1 -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="bg-[#6b0000] text-white font-bold text-lg rounded-lg flex justify-center items-center">AC</div>
+        <div class="bg-[#6b0000] text-white font-bold text-lg rounded-lg flex justify-center items-center">Del</div>
+        <div class="bg-[#f3b72f] text-white font-bold text-lg rounded-lg flex justify-center items-center">.</div>
+        <div class="bg-[#f3b72f] text-white font-bold text-lg rounded-lg flex justify-center items-center">/</div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">7</div>
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">8</div>
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">9</div>
+        <div class="bg-[#f3b72f] text-white font-bold text-lg rounded-lg flex justify-center items-center">*</div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">4</div>
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">5</div>
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">6</div>
+        <div class="bg-[#f3b72f] text-white font-bold text-lg rounded-lg flex justify-center items-center">-</div>
+      </div>
+
+      <!-- Row 4 -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">1</div>
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">2</div>
+        <div class="bg-[#0b2943] text-white font-bold text-lg rounded-lg flex justify-center items-center">3</div>
+        <div class="bg-[#f3b72f] text-white font-bold text-lg rounded-lg flex justify-center items-center">+</div>
+      </div>
+
+      <!-- Row 5 -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="bg-[#2b9d91] text-white font-bold text-lg rounded-lg flex justify-center items-center">00</div>
+        <div class="bg-[#2b9d91] text-white font-bold text-lg rounded-lg flex justify-center items-center">0</div>
+        <div class="col-span-2 bg-[#127818] text-white font-bold text-lg rounded-lg flex justify-center items-center">=</div>
+      </div>
+    </div>
+  </body>
+</html>
